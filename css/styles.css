@@ -1,0 +1,818 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+a {
+    outline: none;
+    cursor: pointer !important
+}
+
+body {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    cursor: default
+}
+
+a {
+    text-decoration: underline;
+    color: #00f;
+    cursor: auto
+}
+
+a:hover {
+    color: #3434fd;
+    text-decoration: none
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+.container {
+    width: 1020px;
+    position: relative;
+    margin: 0 auto
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px
+}
+
+.header_line_2 {
+    margin-top: 0;
+    padding-bottom: 6px
+}
+
+.links {
+    padding-top: 5px;
+    font-size: 0;
+    position: relative;
+    margin-left: 69px;
+    display: inline-block
+}
+
+.links li {
+    color: #1b354a;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+    letter-spacing: .9px;
+    font-size: 18px !important
+}
+
+.links li:hover {
+    color: #5296db
+}
+
+.links li:nth-child(1) {
+    margin-right: 11px
+}
+
+.links li:nth-child(2) {
+    margin-right: 11px
+}
+
+.links li:last-child {
+    margin-right: 0
+}
+
+.chosen_link {
+    border-radius: 3px;
+    border: 2px solid #05519d;
+    padding: 4px
+}
+
+.search {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: transparent url("../img/search.svg") no-repeat scroll center center/20px 20px;
+    vertical-align: top;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.search:hover {
+    opacity: .7
+}
+
+@media screen and (max-width:1019px) {
+    img {
+        max-width: 100%
+    }
+
+    .header_line_2 {
+        text-align: center
+    }
+
+    .container {
+        width: 100% !important
+    }
+
+    .wr-search {
+        display: none
+    }
+
+    .links {
+        height: 40px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0
+    }
+}
+
+@media screen and (max-width:767px) {
+    p {
+        text-align: left
+    }
+}
+
+.burger {
+    display: none
+}
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.line {
+    margin-bottom: 20px;
+    height: 4px;
+    width: 100%;
+    background: -o-linear-gradient(left, #4486eb 0%, #2657a2 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#4486eb), to(#2657a2));
+    background: linear-gradient(90deg, #4486eb 0%, #2657a2 100%)
+}
+
+.footer__desc {
+    margin-bottom: 30px !important;
+    max-width: 200px;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 140% !important;
+    text-align: center;
+    color: #6f6f6f
+}
+
+p {
+    margin-bottom: 20px
+}
+
+@media(max-width:660px) {
+    .header_line_2 {
+        margin: 0 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .burger {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .links {
+        display: none
+    }
+}
+
+@media(max-width:320px) {
+    p {
+        font-size: 16px
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_header-section .__rusindustry_info>*+:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 50px;
+    border-right: 1px solid #d8d8d8;
+    left: 20px;
+    top: -8px
+}
+
+@media(max-width:640px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_header-section .__rusindustry_info>*+:before {
+        display: none
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_subscribe-block .__rusindustry_subscribe-get-access .__rusindustry_categories .__rusindustry_list>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 16px;
+    height: 12px;
+    background: url("") no-repeat center center/contain
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: calc(100% + 40px);
+    height: 100%;
+    z-index: 0;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb
+}
+
+@media(max-width:1100px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:before {
+        width: 100%;
+        left: 0
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:after {
+    content: "Ð¯Ð½Ð´ÐµÐºÑ Ð”Ð¸Ñ€ÐµÐºÑ‚";
+    display: block;
+    white-space: nowrap;
+    color: #969696;
+    font-size: 12px;
+    line-height: 1em;
+    margin-top: 15px
+}
+
+@media(max-width:800px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>:after {
+        display: none
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar {
+    width: 5px
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar-track {
+    background: 0 0
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease;
+    will-change: background;
+    border-radius: 3px
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside .__rusindustry_category .__rusindustry_list>*>*+:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -18px;
+    width: 100%;
+    height: 0
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside .__rusindustry_section-link .__rusindustry_tags>:before {
+    content: "#"
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 20px);
+    width: 20px;
+    height: 40px;
+    background: url("") no-repeat center center/9px auto, #646464;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man>:hover:before {
+    background: url("") no-repeat center center/9px auto, #999
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man-v2>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: 0;
+    width: 30px;
+    height: 60px;
+    background: url("") no-repeat center center/12px auto, #646464;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease
+}
+
+@media print {
+    @page {
+        margin-left: 20mm;
+        margin-right: 20mm;
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    body {
+        margin: 0;
+        overflow: visible
+    }
+
+    body div:nth-child(1) {
+        height: auto !important
+    }
+
+    body,
+    html {
+        height: 99% !important
+    }
+}
+
+ul {
+    margin-bottom: 20px !important
+}
+
+ul li {
+    font-size: 18px !important
+}
+
+body>header>div {
+    margin-top: 10px !important
+}
+
+.header,
+.footer {
+    font-family: sans-serif !important
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    outline: none;
+    cursor: pointer !important
+}
+
+body {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    cursor: default
+}
+
+a {
+    text-decoration: underline;
+    color: #00f;
+    cursor: auto
+}
+
+a:hover {
+    color: #3434fd;
+    text-decoration: none
+}
+
+.base {
+    padding: 40px 40px 0;
+    background-color: #fff;
+    overflow: hidden
+}
+
+input {
+    font-size: inherit;
+    line-height: inherit
+}
+
+@media screen and (max-width:1019px) {
+    img {
+        max-width: 100%
+    }
+
+    .base {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+@media screen and (max-width:767px) {
+    p {
+        text-align: left
+    }
+}
+
+@media screen and (max-width:320px) {
+    .base p {
+        font-size: 16px
+    }
+}
+
+.bo-ra {
+    border-radius: 10px
+}
+
+.sub-title {
+    font-size: 22px !important;
+    line-height: 140% !important;
+    text-align: center;
+    font-family: sans-serif
+}
+
+.base {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.quiz {
+    padding: 25px 0 30px
+}
+
+.quiz__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.quiz__item:not(:last-child) {
+    margin-bottom: 30px
+}
+
+.quiz__item h3 {
+    margin-bottom: 20px;
+    font-size: 18px !important;
+    line-height: 130% !important
+}
+
+.question-label {
+    position: relative;
+    padding-left: 33px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #2c2d2e
+}
+
+.question-label input {
+    display: none
+}
+
+.question-label input+span {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #919399;
+    border-radius: 3px;
+    left: 0;
+    top: 0
+}
+
+.question-label input+span::before {
+    content: "";
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: -2px;
+    bottom: -2px;
+    background-color: #f5f5f5;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+    opacity: 0
+}
+
+.question-label input:checked+span::before {
+    opacity: 1
+}
+
+.quiz__item .question-label:not(:last-child) {
+    margin-bottom: 15px
+}
+
+.btn-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.answer-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700
+}
+
+.answer-btn {
+    margin-bottom: 25px;
+    background: #005dbc;
+    color: #fff
+}
+
+p {
+    margin-bottom: 20px
+}
+
+.main-img-2 {
+    margin-bottom: 30px
+}
+
+.result {
+    display: none
+}
+
+.form-block {
+    margin-bottom: 30px
+}
+
+@media(max-width:550px) {
+    .add-flex {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+.form-block .submit-roulette {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #005dbc;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    text-wrap: wrap;
+    color: #fff
+}
+
+@media(max-width:340px) {
+    .main-img-2 {
+        max-width: 260px !important
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input:focus {
+        font-size: 16px
+    }
+}
+
+.base {
+    padding-top: 0 !important
+}
+
+@media(max-width:1019px) {
+    .base {
+        padding-top: 0 !important
+    }
+}
+
+@media(max-width:320px) {
+    p {
+        font-size: 16px
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_header-section .__rusindustry_info>*+:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 50px;
+    border-right: 1px solid #d8d8d8;
+    left: 20px;
+    top: -8px
+}
+
+@media(max-width:640px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_header-section .__rusindustry_info>*+:before {
+        display: none
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_subscribe-block .__rusindustry_subscribe-get-access .__rusindustry_categories .__rusindustry_list>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 16px;
+    height: 12px;
+    background: url("") no-repeat center center/contain
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: calc(100% + 40px);
+    height: 100%;
+    z-index: 0;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb
+}
+
+@media(max-width:1100px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:before {
+        width: 100%;
+        left: 0
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_advertising>:after {
+    content: "Ð¯Ð½Ð´ÐµÐºÑ Ð”Ð¸Ñ€ÐµÐºÑ‚";
+    display: block;
+    white-space: nowrap;
+    color: #969696;
+    font-size: 12px;
+    line-height: 1em;
+    margin-top: 15px
+}
+
+@media(max-width:800px) {
+    .__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>:after {
+        display: none
+    }
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar {
+    width: 5px
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar-track {
+    background: 0 0
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside>::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease;
+    will-change: background;
+    border-radius: 3px
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside .__rusindustry_category .__rusindustry_list>*>*+:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -18px;
+    width: 100%;
+    height: 0
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_text-section .__rusindustry_aside .__rusindustry_section-link .__rusindustry_tags>:before {
+    content: "#"
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 20px);
+    width: 20px;
+    height: 40px;
+    background: url("") no-repeat center center/9px auto, #646464;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man>:hover:before {
+    background: url("") no-repeat center center/9px auto, #999
+}
+
+.__rusindustry_rusind-subset.__rusindustry_article-page .__rusindustry_articles-section .__rusindustry_top .__rusindustry_man-v2>:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: 0;
+    width: 30px;
+    height: 60px;
+    background: url("") no-repeat center center/12px auto, #646464;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -ms-transition: background .2s ease;
+    transition: background .2s ease
+}
+
+@media print {
+    @page {
+        margin-left: 20mm;
+        margin-right: 20mm;
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    body {
+        margin: 0;
+        overflow: visible
+    }
+
+    body div:nth-child(1) {
+        height: auto !important
+    }
+
+    body,
+    html {
+        height: 99% !important
+    }
+}
+
+[scroll=goScrollToForm] {
+    cursor: pointer
+}
+
+.ring-loading {
+    width: 10px;
+    height: 10px;
+    padding: 15px !important;
+    border: 7px dashed #000;
+    border-radius: 100%;
+    display: none;
+    margin: 10px auto !important;
+    animation: loadingD 1.5s .3s cubic-bezier(.17, .37, .43, .67) infinite
+}
+
+@keyframes loadingD {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
